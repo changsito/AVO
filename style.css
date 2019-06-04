@@ -1,0 +1,78 @@
+@font-face {
+  font-family: soliaterz;
+  src: url('Soliaterz.otf');
+}
+@font-face {
+  font-family: quantify;
+  src: url('Quantify.ttf');
+}
+body{
+  /*estilo para el cuerpo de la pagina en internet*/
+  background-color: #eeeeee;
+}
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 15px;
+  z-index: 999;
+  color:white;
+  font-size: xx-large;
+  font-family: quantify, soliaterz, sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  background-color: #0099FF;
+  transition: background-color 0.3s ease-in;
+  display: block;
+}
+
+#header:hover{
+  background-color: #009688/*#6aed00*/;
+}
+
+.separator{
+  width: 100%;
+  height: 5.4em;
+}
+.frame{
+  position: relative;
+  margin-left: 1em;
+  width: 20%;
+  display: inline-block;
+  background: white;
+  border-radius: 10px;
+  padding: 40px 10px 10px 10px;
+  font-size: large;
+  font-family: soliaterz, sans-serif;
+  box-shadow: 5px 5px #33ffee/*#eeffee*/;
+}
+
+.frame .title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0099FF;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-size: x-large;
+  width: 100%;
+  height: 1.5em;
+  display: block;
+  transition: background-color 0.3s ease-in;
+}
+
+.frame:hover .title{
+  background-color: #00CCFF;
+}
+
+#background{
+  position: fixed;
+  top: 5.4em;
+  right: 0;
+  z-index: -999;
+  width: 100%;
+  height: 80%;
+}
