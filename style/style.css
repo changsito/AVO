@@ -10,6 +10,22 @@ body{
   /*estilo para el cuerpo de la pagina en internet*/
   background-color: #eeeeee;
 }
+
+a:link{
+  color: #0000FF;
+  text-decoration: none;
+}
+
+a:visited{
+  color: purple;
+}
+
+a:hover{
+  cursor: pointer;
+  color: #00AAFF;
+}
+
+
 #header{
   position: fixed;
   top: 0;
@@ -62,6 +78,10 @@ body{
   height: 1.5em;
   display: block;
   transition: background-color 0.3s ease-in;
+}
+
+.frame error.title{
+  background-color: red;
 }
 
 .frame:hover .title{
